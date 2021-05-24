@@ -2,11 +2,11 @@ module.exports = ({ env }) => ({
     upload: {
       provider: 'aws-s3',
       providerOptions: {
-        accessKeyId: env(AWS_ACCESS_KEY),
-        secretAccessKey: env(AWS_ACCESS_SECRET),
-        region: AWS_REGION,
+        accessKeyId: env('AKIAWPCLKXNK2BAMIEDY'),
+        secretAccessKey: env('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'),
+        region: 'eu-north-1',
         params: {
-          Bucket: AWS_BUCKET,
+          Bucket: 'heals-shop-uploder',
         },
       },
     },
